@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>On line coin database</title>
+<style>
+	body {
+		background-color: green;
+	}
+	
+	form {
+		margin: auto;
+		border-style: solid;
+		}
+</style>
+</head>
+<body>
+<h1>Welcome to the coin Organizer</h1>
+
+<form action = "addCoinServlet" method="post">
+<h3>Add coin</h3>
+Price of Coin: <input type ="text" name = "price">
+Type of Coin: <input type = "text" name = "type">
+<input type = "submit" value="Add Item">
+</form> <br />
+<a href = "viewAllItemsServlet">View the complete Coin list</a>
+
+</body>
+</html>
